@@ -15,6 +15,6 @@ public class Configs {
         public static int difficulty = 3;
         @Comment("Lock a difficulty when this mod sets it.")
         public static boolean isLock = true;
-        @Comment("Replace difficulty when already difficulty was locked.")
+        @Comment("Change difficulty when already difficulty was locked.")
         public static boolean forceDifficulty = false;
 }
